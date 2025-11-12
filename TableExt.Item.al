@@ -2,7 +2,7 @@ tableextension 50100 "Item Extension" extends Item
 {
     fields
     {
-        field(50001; test; Decimal)
+        field(50002; test; Decimal)
         {
             Caption = 'Test';
             DataClassification = ToBeClassified;
