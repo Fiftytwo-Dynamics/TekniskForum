@@ -2,6 +2,12 @@ tableextension 50100 "Item Extension" extends Item
 {
     fields
     {
+        field(50001; test; Decimal)
+        {
+            Caption = 'Test';
+            DataClassification = ToBeClassified;
+            DecimalPlaces = 0 : 5;
+        }
         field(50100; "Stregkode"; Code[50])
         {
             Caption = 'Stregkode';
