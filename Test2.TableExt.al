@@ -7,7 +7,7 @@ tableextension 50111 ItemExt extends Item
             Caption = 'Supply Stock', Comment = 'DAN="Restlagerstyring"';
             DataClassification = ToBeClassified;
         }
-        field(50012; FDYBDKSupplyStock2; Boolean)
+        field(50012; FDYBDKSupplyStock2; Code[10])
         {
             Caption = 'Supply Stock', Comment = 'DAN="Restlagerstyring"';
             DataClassification = ToBeClassified;
